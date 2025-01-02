@@ -45,7 +45,7 @@ Restart the container that has already be run once.
 If necessary:
 
 ```bash
-docker rmi -f ros2_diff_drive
+docker rmi -f ros2_diff_drive_jazzy
 ```
 
 ## ROS2 Workspace

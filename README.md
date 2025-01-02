@@ -64,7 +64,7 @@ ros2 pkg create --build-type ament_python --dependencies rclpy std_msgs sensor_m
 # Build the workspace
 ## This must be done at the workspace directory level!
 cd /ros2_diff_drive_ws
-colcon build
+colcon build --symlink-install
 
 ```
 
